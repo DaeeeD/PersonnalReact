@@ -1,15 +1,15 @@
 import "../styles/cart.css"
 
 function Cart () {
-    const priceprimus = 8;
-    const pricesecondus = 10;
-    const pricetertius = 15;
+    const positonprimus = 1;
+    const positionsecondus = 2;
+    const positiontertius = 3;
     return (
-        <div className='testingsitecart'>Panier
-            <ul>TrucPrimus: {priceprimus}</ul>
-            <ul>TrucSecondus: {pricesecondus}</ul>
-            <ul>TrucTertius: {pricetertius}</ul>
-            <ul>Totalité: {priceprimus+pricesecondus+pricetertius}</ul>
+        <div className='testingsitecart'>Liste
+            <ul>TrucPrimus: {positonprimus}</ul>
+            <ul>TrucSecondus: {positionsecondus}</ul>
+            <ul>TrucTertius: {positiontertius}</ul>
+            <ul>total des points: {positonprimus+positionsecondus+positiontertius}</ul>
         </div>
     )
 }
