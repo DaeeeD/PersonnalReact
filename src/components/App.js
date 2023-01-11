@@ -2,7 +2,7 @@ import React from "react";
 import HailofFame from "./ApiOpencritic";
 import Banner from "./Banner";
 // import Cart from "./Cart";
-import GamesToShow from "./GamesToShow";
+// import GamesToShow from "./GamesToShow";
 
 function MyApp() {
   return (

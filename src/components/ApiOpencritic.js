@@ -1,6 +1,7 @@
 
 import { React } from "react";
 import useFetch from "react-fetch-hook";
+import '../styles/gamelist.css'
 
 const url = 'https://opencritic-api.p.rapidapi.com/game/hall-of-fame/2018';
 const options = {
