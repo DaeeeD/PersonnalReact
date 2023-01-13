@@ -15,14 +15,17 @@ const options = {
 function GamesDetails (gameslist) {
   const list = gameslist.map(game => 
       <li key={game.id}>
-          <p>
+          <p style={{
+            backgroundColor: 'black',
+            color: 'white'
+            }}>
               <b> {game.name} </b>
               score de : 
               {' ' + game.topCriticScore + ' ' }
           </p>
       </li>
   );
-  return <ul>{list}</ul>;
+  return <ul style={{width: '50%', color: 'red'}}>{list}</ul>;
 }
 
 function HailofFame() {
